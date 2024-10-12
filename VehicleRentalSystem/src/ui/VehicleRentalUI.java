@@ -8,7 +8,7 @@ import customexception.VehicleNotAvailableException;
 import java.util.Scanner;
 
 public class VehicleRentalUI {
-    private static final String FILE_NAME = "vehicles.dat";
+    private static final String FILE_NAME = "vehicles.txt";
 
     public static void main(String[] args) {
         VehicleRentalService service = new VehicleRentalService();
